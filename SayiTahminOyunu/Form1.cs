@@ -25,7 +25,7 @@ namespace SayiTahminOyunu
 
         private void btnBasla_Click(object sender, EventArgs e)
         {
-            skor = 100;
+            skor =50;
             lblSkor.Text = "SKOR : " + skor.ToString();
             btnTahmin.Enabled = true;
             RandomSayiUret();

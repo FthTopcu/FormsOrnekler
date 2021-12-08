@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PictureBoxKullanimi
+namespace MessageBoxNesnesi
 {
     public partial class Form1 : Form
     {
@@ -17,15 +17,9 @@ namespace PictureBoxKullanimi
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnMesajGoster_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile(@"..\..\resimler\ZarBir.png");
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            MessageBox.Show("Kullanıcıya göstermek istediğimiz bilgi", "Başlık bilgisi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9EE12B7A-83A9-43F2-B4E6-9DAE0382C47B}</ProjectGuid>
+    <ProjectGuid>{98895354-48FE-4CD3-B237-F7565B77B9AE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>IkiTarihArasiniBulma</RootNamespace>
-    <AssemblyName>IkiTarihArasiniBulma</AssemblyName>
+    <RootNamespace>QrKodOlusturma</RootNamespace>
+    <AssemblyName>QrKodOlusturma</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
