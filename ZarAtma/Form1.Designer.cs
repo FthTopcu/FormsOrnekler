@@ -44,11 +44,13 @@ namespace ZarAtma
             this.cB4 = new System.Windows.Forms.CheckBox();
             this.cB5 = new System.Windows.Forms.CheckBox();
             this.btnTekrar = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -94,6 +96,7 @@ namespace ZarAtma
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox4.Location = new System.Drawing.Point(749, 45);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(193, 169);
@@ -184,11 +187,22 @@ namespace ZarAtma
             this.btnTekrar.Visible = false;
             this.btnTekrar.Click += new System.EventHandler(this.btnTekrar_Click);
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
+            this.pictureBox6.Location = new System.Drawing.Point(721, 186);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(22, 28);
+            this.pictureBox6.TabIndex = 12;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1223, 381);
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.btnTekrar);
             this.Controls.Add(this.cB5);
             this.Controls.Add(this.cB4);
@@ -209,6 +223,7 @@ namespace ZarAtma
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,6 +244,7 @@ namespace ZarAtma
         private System.Windows.Forms.CheckBox cB4;
         private System.Windows.Forms.CheckBox cB5;
         private System.Windows.Forms.Button btnTekrar;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
 

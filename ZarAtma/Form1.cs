@@ -47,6 +47,7 @@ namespace ZarAtma
                 checkBoxes[i].Checked = false;
                 checkBoxes[i].Visible = false;
             }
+            btnZarAt.Enabled = true;
             btnTekrar.Visible = false;
         }
         private void ZarAt(PictureBox pcb)
@@ -61,6 +62,11 @@ namespace ZarAtma
         private void btnZarAt_MouseLeave(object sender, EventArgs e)
         {
             btnZarAt.BackColor = Color.MediumSeaGreen;
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ad");
         }
     }
 }

@@ -14,5 +14,6 @@ namespace MessageBoxNesnesi
         {
             musteriler = new List<Musteri>();
         }
+        
     }
 }
