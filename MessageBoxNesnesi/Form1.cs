@@ -20,6 +20,25 @@ namespace MessageBoxNesnesi
         private void btnMesajGoster_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Kullanıcıya göstermek istediğimiz bilgi", "Başlık bilgisi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+        }
+
+        private void btnSoruSor_Click(object sender, EventArgs e)
+        {
+            DialogResult res = MessageBox.Show("Yeniden denemek ister misiniz?", "Soru", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (res == DialogResult.Yes)
+            {
+
+            }
+            if (res == DialogResult.No)
+            {
+
+            }
+            if (res == DialogResult.Cancel)
+            {
+
+            }
+
         }
     }
 }
