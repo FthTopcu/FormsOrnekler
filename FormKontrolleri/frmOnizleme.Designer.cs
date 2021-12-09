@@ -29,10 +29,10 @@ namespace FormKontrolleri
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTelefonNumarasi = new System.Windows.Forms.TextBox();
+            this.txtEmailAdres = new System.Windows.Forms.TextBox();
+            this.txtSoyisim = new System.Windows.Forms.TextBox();
+            this.txtIsim = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,33 +40,37 @@ namespace FormKontrolleri
             this.btnKaydet = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox4
+            // txtTelefonNumarasi
             // 
-            this.textBox4.Location = new System.Drawing.Point(253, 143);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 15;
+            this.txtTelefonNumarasi.Enabled = false;
+            this.txtTelefonNumarasi.Location = new System.Drawing.Point(253, 143);
+            this.txtTelefonNumarasi.Name = "txtTelefonNumarasi";
+            this.txtTelefonNumarasi.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefonNumarasi.TabIndex = 15;
             // 
-            // textBox3
+            // txtEmailAdres
             // 
-            this.textBox3.Location = new System.Drawing.Point(253, 109);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 14;
+            this.txtEmailAdres.Enabled = false;
+            this.txtEmailAdres.Location = new System.Drawing.Point(253, 109);
+            this.txtEmailAdres.Name = "txtEmailAdres";
+            this.txtEmailAdres.Size = new System.Drawing.Size(100, 20);
+            this.txtEmailAdres.TabIndex = 14;
             // 
-            // textBox2
+            // txtSoyisim
             // 
-            this.textBox2.Location = new System.Drawing.Point(253, 72);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 13;
+            this.txtSoyisim.Enabled = false;
+            this.txtSoyisim.Location = new System.Drawing.Point(253, 72);
+            this.txtSoyisim.Name = "txtSoyisim";
+            this.txtSoyisim.Size = new System.Drawing.Size(100, 20);
+            this.txtSoyisim.TabIndex = 13;
             // 
-            // textBox1
+            // txtIsim
             // 
-            this.textBox1.Location = new System.Drawing.Point(253, 40);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 12;
+            this.txtIsim.Enabled = false;
+            this.txtIsim.Location = new System.Drawing.Point(253, 40);
+            this.txtIsim.Name = "txtIsim";
+            this.txtIsim.Size = new System.Drawing.Size(100, 20);
+            this.txtIsim.TabIndex = 12;
             // 
             // label4
             // 
@@ -120,16 +124,17 @@ namespace FormKontrolleri
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 284);
             this.Controls.Add(this.btnKaydet);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTelefonNumarasi);
+            this.Controls.Add(this.txtEmailAdres);
+            this.Controls.Add(this.txtSoyisim);
+            this.Controls.Add(this.txtIsim);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmOnizleme";
             this.Text = "Kayıt Önizleme Ekranı";
+            this.Load += new System.EventHandler(this.frmOnizleme_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,10 +142,10 @@ namespace FormKontrolleri
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTelefonNumarasi;
+        private System.Windows.Forms.TextBox txtEmailAdres;
+        private System.Windows.Forms.TextBox txtSoyisim;
+        private System.Windows.Forms.TextBox txtIsim;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

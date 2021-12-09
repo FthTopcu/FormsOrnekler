@@ -55,7 +55,7 @@ namespace ZarAtma
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(60, 45);
+            this.pictureBox1.Location = new System.Drawing.Point(41, 39);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(193, 169);
             this.pictureBox1.TabIndex = 0;
@@ -63,7 +63,7 @@ namespace ZarAtma
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(291, 45);
+            this.pictureBox2.Location = new System.Drawing.Point(272, 39);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(193, 169);
             this.pictureBox2.TabIndex = 1;
@@ -73,7 +73,7 @@ namespace ZarAtma
             // 
             this.btnZarAt.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnZarAt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnZarAt.Location = new System.Drawing.Point(521, 265);
+            this.btnZarAt.Location = new System.Drawing.Point(502, 259);
             this.btnZarAt.Name = "btnZarAt";
             this.btnZarAt.Size = new System.Drawing.Size(193, 47);
             this.btnZarAt.TabIndex = 2;
@@ -97,7 +97,7 @@ namespace ZarAtma
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox4.Location = new System.Drawing.Point(749, 45);
+            this.pictureBox4.Location = new System.Drawing.Point(730, 39);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(193, 169);
             this.pictureBox4.TabIndex = 4;
@@ -105,7 +105,7 @@ namespace ZarAtma
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(521, 45);
+            this.pictureBox3.Location = new System.Drawing.Point(502, 39);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(193, 169);
             this.pictureBox3.TabIndex = 3;
@@ -113,7 +113,7 @@ namespace ZarAtma
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(972, 45);
+            this.pictureBox5.Location = new System.Drawing.Point(953, 39);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(193, 169);
             this.pictureBox5.TabIndex = 5;
@@ -122,7 +122,7 @@ namespace ZarAtma
             // cB1
             // 
             this.cB1.AutoSize = true;
-            this.cB1.Location = new System.Drawing.Point(131, 220);
+            this.cB1.Location = new System.Drawing.Point(112, 214);
             this.cB1.Name = "cB1";
             this.cB1.Size = new System.Drawing.Size(70, 17);
             this.cB1.TabIndex = 6;
@@ -133,7 +133,7 @@ namespace ZarAtma
             // cB2
             // 
             this.cB2.AutoSize = true;
-            this.cB2.Location = new System.Drawing.Point(354, 220);
+            this.cB2.Location = new System.Drawing.Point(335, 214);
             this.cB2.Name = "cB2";
             this.cB2.Size = new System.Drawing.Size(70, 17);
             this.cB2.TabIndex = 7;
@@ -144,7 +144,7 @@ namespace ZarAtma
             // cB3
             // 
             this.cB3.AutoSize = true;
-            this.cB3.Location = new System.Drawing.Point(579, 220);
+            this.cB3.Location = new System.Drawing.Point(560, 214);
             this.cB3.Name = "cB3";
             this.cB3.Size = new System.Drawing.Size(70, 17);
             this.cB3.TabIndex = 8;
@@ -155,7 +155,7 @@ namespace ZarAtma
             // cB4
             // 
             this.cB4.AutoSize = true;
-            this.cB4.Location = new System.Drawing.Point(802, 220);
+            this.cB4.Location = new System.Drawing.Point(783, 214);
             this.cB4.Name = "cB4";
             this.cB4.Size = new System.Drawing.Size(70, 17);
             this.cB4.TabIndex = 9;
@@ -166,7 +166,7 @@ namespace ZarAtma
             // cB5
             // 
             this.cB5.AutoSize = true;
-            this.cB5.Location = new System.Drawing.Point(1027, 220);
+            this.cB5.Location = new System.Drawing.Point(1008, 214);
             this.cB5.Name = "cB5";
             this.cB5.Size = new System.Drawing.Size(70, 17);
             this.cB5.TabIndex = 10;
@@ -178,7 +178,7 @@ namespace ZarAtma
             // 
             this.btnTekrar.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnTekrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnTekrar.Location = new System.Drawing.Point(540, 318);
+            this.btnTekrar.Location = new System.Drawing.Point(521, 312);
             this.btnTekrar.Name = "btnTekrar";
             this.btnTekrar.Size = new System.Drawing.Size(162, 37);
             this.btnTekrar.TabIndex = 11;
@@ -190,9 +190,9 @@ namespace ZarAtma
             // pictureBox6
             // 
             this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.Location = new System.Drawing.Point(721, 186);
+            this.pictureBox6.Location = new System.Drawing.Point(701, 184);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(22, 28);
+            this.pictureBox6.Size = new System.Drawing.Size(23, 24);
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
@@ -201,7 +201,7 @@ namespace ZarAtma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1223, 381);
+            this.ClientSize = new System.Drawing.Size(1190, 381);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.btnTekrar);
             this.Controls.Add(this.cB5);

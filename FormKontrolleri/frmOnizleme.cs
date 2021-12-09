@@ -36,5 +36,10 @@ namespace FormKontrolleri
             }
             this.Close();
         }
+
+        private void frmOnizleme_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

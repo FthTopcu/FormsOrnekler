@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7849E4CB-62B2-45FA-8F79-975A3CCB0329}</ProjectGuid>
+    <ProjectGuid>{3C63391C-AFD7-4C68-A618-01A9E23B61D6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>FormKontrolleri</RootNamespace>
-    <AssemblyName>FormKontrolleri</AssemblyName>
+    <RootNamespace>DinamikFormElamanlari</RootNamespace>
+    <AssemblyName>DinamikFormElamanlari</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,21 +52,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmOnizleme.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmOnizleme.Designer.cs">
-      <DependentUpon>frmOnizleme.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Kullanici.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SanalDatabase.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmOnizleme.resx">
-      <DependentUpon>frmOnizleme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
