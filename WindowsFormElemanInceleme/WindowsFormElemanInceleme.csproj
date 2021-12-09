@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6C6B196A-94D6-413D-8E47-644FFD1694D0}</ProjectGuid>
+    <ProjectGuid>{432AC216-2136-46D4-84EB-B69022ADE6FF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ListBoxInceleme</RootNamespace>
-    <AssemblyName>ListBoxInceleme</AssemblyName>
+    <RootNamespace>WindowsFormElemanInceleme</RootNamespace>
+    <AssemblyName>WindowsFormElemanInceleme</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,19 +52,16 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SanalDatabase.cs" />
-    <Compile Include="Urun.cs" />
-    <Compile Include="UrunSecimKullanici.cs">
+    <Compile Include="SistemGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UrunSecimKullanici.Designer.cs">
-      <DependentUpon>UrunSecimKullanici.cs</DependentUpon>
+    <Compile Include="SistemGiris.Designer.cs">
+      <DependentUpon>SistemGiris.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="Urun.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,8 +71,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UrunSecimKullanici.resx">
-      <DependentUpon>UrunSecimKullanici.cs</DependentUpon>
+    <EmbeddedResource Include="SistemGiris.resx">
+      <DependentUpon>SistemGiris.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

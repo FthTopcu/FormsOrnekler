@@ -66,6 +66,7 @@ namespace ListBoxInceleme
             this.lstUrunler.ItemHeight = 31;
             this.lstUrunler.Location = new System.Drawing.Point(115, 75);
             this.lstUrunler.Name = "lstUrunler";
+            this.lstUrunler.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lstUrunler.Size = new System.Drawing.Size(678, 128);
             this.lstUrunler.TabIndex = 2;
             this.lstUrunler.SelectedIndexChanged += new System.EventHandler(this.lstUrunler_SelectedIndexChanged);

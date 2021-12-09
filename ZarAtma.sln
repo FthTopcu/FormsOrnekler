@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboboxInceleme", "Combobo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxInceleme", "ListBoxInceleme\ListBoxInceleme.csproj", "{6C6B196A-94D6-413D-8E47-644FFD1694D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormElemanInceleme", "WindowsFormElemanInceleme\WindowsFormElemanInceleme.csproj", "{432AC216-2136-46D4-84EB-B69022ADE6FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{6C6B196A-94D6-413D-8E47-644FFD1694D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C6B196A-94D6-413D-8E47-644FFD1694D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C6B196A-94D6-413D-8E47-644FFD1694D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432AC216-2136-46D4-84EB-B69022ADE6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432AC216-2136-46D4-84EB-B69022ADE6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432AC216-2136-46D4-84EB-B69022ADE6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432AC216-2136-46D4-84EB-B69022ADE6FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

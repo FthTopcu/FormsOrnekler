@@ -39,7 +39,35 @@ namespace ListBoxInceleme
 
         private void lstUrunler_SelectedIndexChanged(object sender, EventArgs e)
         {
+            int urunSecimAdet = lstUrunler.SelectedItems.Count;
+            if(urunSecimAdet == 1)
+            {
+                ListBox lbox = (ListBox)sender;
+                Urun u1 = (Urun)lbox.SelectedItem;
 
+                pctUrunResim.Image = Image.FromFile(u1.UrunResim);
+                pctUrunResim.SizeMode = PictureBoxSizeMode.AutoSize;
+                txtUrunAdi.Text = u1.UrunAdi;
+                txtStokAdet.Text = u1.StokAdet.ToString();
+                txtUrunKategori.Text = u1.UrunKategori;
+                txtYazar.Text = u1.Yazar;
+                txtAciklama.Text = u1.Aciklama;
+            }
+            else if (urunSecimAdet > 1)
+            {
+                List<Urun> secilenUrunListe = new List<Urun>();
+                foreach (var item in lstUrunler.SelectedItems)
+                {
+                    secilenUrunListe.Add(item as Urun);
+                }
+                UrunSecimKullanici secimKullanici = new UrunSecimKullanici(secilenUrunListe.ToArray());
+                secimKullanici.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen detayını görmek istediğiniz ürünü seçiniz..",
+                    "Bilgilendirme",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
         }
 
     }

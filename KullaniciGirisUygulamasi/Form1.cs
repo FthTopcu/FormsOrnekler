@@ -41,5 +41,25 @@ namespace KullaniciGirisUygulamasi
                 MessageBox.Show("Hatalı kullanıcı bilgileri","Hata",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
+
+        private void txtPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtKullaniciAdi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -45,6 +45,7 @@ namespace KullaniciGirisUygulamasi
             this.label1.Size = new System.Drawing.Size(183, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kullanıcı Adı : ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -55,6 +56,7 @@ namespace KullaniciGirisUygulamasi
             this.label2.Size = new System.Drawing.Size(99, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "Şifre  : ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtKullaniciAdi
             // 
@@ -63,6 +65,7 @@ namespace KullaniciGirisUygulamasi
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(234, 38);
             this.txtKullaniciAdi.TabIndex = 2;
+            this.txtKullaniciAdi.TextChanged += new System.EventHandler(this.txtKullaniciAdi_TextChanged);
             // 
             // txtPass
             // 
@@ -72,6 +75,7 @@ namespace KullaniciGirisUygulamasi
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(234, 38);
             this.txtPass.TabIndex = 3;
+            this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             // 
             // btnGirisYap
             // 
