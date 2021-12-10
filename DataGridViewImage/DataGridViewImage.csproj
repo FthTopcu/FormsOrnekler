@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{432AC216-2136-46D4-84EB-B69022ADE6FF}</ProjectGuid>
+    <ProjectGuid>{3F7B0EA1-E477-44C2-B10A-F4243A616773}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormElemanInceleme</RootNamespace>
-    <AssemblyName>WindowsFormElemanInceleme</AssemblyName>
+    <RootNamespace>DataGridViewImage</RootNamespace>
+    <AssemblyName>DataGridViewImage</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,15 +52,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SistemGiris.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SistemGiris.Designer.cs">
-      <DependentUpon>SistemGiris.cs</DependentUpon>
-    </Compile>
     <Compile Include="Urun.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -74,9 +67,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SistemGiris.resx">
-      <DependentUpon>SistemGiris.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include="Properties\DataSources\Urun.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -36,5 +36,6 @@ namespace WindowsFormElemanInceleme
                 MessageBox.Show("Lütfen Form Alanlarını Eksiksiz Doldurunuz!", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
     }
 }

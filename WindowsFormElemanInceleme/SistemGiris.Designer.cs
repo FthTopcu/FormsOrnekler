@@ -90,12 +90,14 @@ namespace WindowsFormElemanInceleme
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(683, 314);
+            this.ControlBox = false;
             this.Controls.Add(this.btnGirisYap);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtKullaniciAdi);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Name = "SistemGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistem Giriş";
             this.ResumeLayout(false);
             this.PerformLayout();
