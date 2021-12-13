@@ -162,6 +162,7 @@ namespace WindowsFormElemanInceleme
             // 
             // cltUrunOzellikleri
             // 
+            this.cltUrunOzellikleri.CheckOnClick = true;
             this.cltUrunOzellikleri.FormattingEnabled = true;
             this.cltUrunOzellikleri.Location = new System.Drawing.Point(176, 98);
             this.cltUrunOzellikleri.Name = "cltUrunOzellikleri";
