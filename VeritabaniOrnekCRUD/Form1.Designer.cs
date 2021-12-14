@@ -50,7 +50,7 @@ namespace VeritabaniOrnekCRUD
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 12);
+            this.label1.Location = new System.Drawing.Point(10, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 25);
             this.label1.TabIndex = 0;
@@ -59,7 +59,7 @@ namespace VeritabaniOrnekCRUD
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 50);
+            this.label2.Location = new System.Drawing.Point(16, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 25);
             this.label2.TabIndex = 0;
@@ -68,7 +68,7 @@ namespace VeritabaniOrnekCRUD
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(79, 91);
+            this.label3.Location = new System.Drawing.Point(77, 106);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 25);
             this.label3.TabIndex = 0;
@@ -77,7 +77,7 @@ namespace VeritabaniOrnekCRUD
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 130);
+            this.label4.Location = new System.Drawing.Point(45, 145);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 25);
             this.label4.TabIndex = 0;
@@ -86,7 +86,7 @@ namespace VeritabaniOrnekCRUD
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(43, 170);
+            this.label5.Location = new System.Drawing.Point(41, 185);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 25);
             this.label5.TabIndex = 0;
@@ -94,31 +94,31 @@ namespace VeritabaniOrnekCRUD
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(146, 6);
+            this.txtId.Location = new System.Drawing.Point(144, 21);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(168, 30);
             this.txtId.TabIndex = 1;
             // 
             // txtAdSoyad
             // 
-            this.txtAdSoyad.Location = new System.Drawing.Point(146, 47);
+            this.txtAdSoyad.Location = new System.Drawing.Point(144, 62);
             this.txtAdSoyad.Name = "txtAdSoyad";
             this.txtAdSoyad.Size = new System.Drawing.Size(168, 30);
-            this.txtAdSoyad.TabIndex = 1;
+            this.txtAdSoyad.TabIndex = 2;
             // 
             // txtYas
             // 
-            this.txtYas.Location = new System.Drawing.Point(146, 88);
+            this.txtYas.Location = new System.Drawing.Point(144, 103);
             this.txtYas.Name = "txtYas";
             this.txtYas.Size = new System.Drawing.Size(168, 30);
-            this.txtYas.TabIndex = 1;
+            this.txtYas.TabIndex = 3;
             // 
             // txtTelefon
             // 
-            this.txtTelefon.Location = new System.Drawing.Point(146, 127);
+            this.txtTelefon.Location = new System.Drawing.Point(144, 142);
             this.txtTelefon.Name = "txtTelefon";
             this.txtTelefon.Size = new System.Drawing.Size(168, 30);
-            this.txtTelefon.TabIndex = 1;
+            this.txtTelefon.TabIndex = 4;
             // 
             // cmbCinsiyet
             // 
@@ -126,59 +126,60 @@ namespace VeritabaniOrnekCRUD
             this.cmbCinsiyet.Items.AddRange(new object[] {
             "Erkek",
             "Kadın"});
-            this.cmbCinsiyet.Location = new System.Drawing.Point(146, 167);
+            this.cmbCinsiyet.Location = new System.Drawing.Point(144, 182);
             this.cmbCinsiyet.Name = "cmbCinsiyet";
             this.cmbCinsiyet.Size = new System.Drawing.Size(168, 33);
-            this.cmbCinsiyet.TabIndex = 2;
+            this.cmbCinsiyet.TabIndex = 5;
             // 
             // dgwPersonel
             // 
             this.dgwPersonel.AllowUserToAddRows = false;
             this.dgwPersonel.AllowUserToDeleteRows = false;
             this.dgwPersonel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwPersonel.Location = new System.Drawing.Point(358, 6);
+            this.dgwPersonel.Location = new System.Drawing.Point(356, 21);
+            this.dgwPersonel.MultiSelect = false;
             this.dgwPersonel.Name = "dgwPersonel";
             this.dgwPersonel.ReadOnly = true;
             this.dgwPersonel.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgwPersonel.Size = new System.Drawing.Size(558, 323);
-            this.dgwPersonel.TabIndex = 3;
+            this.dgwPersonel.TabIndex = 10;
             // 
             // btnEkle
             // 
-            this.btnEkle.Location = new System.Drawing.Point(66, 234);
+            this.btnEkle.Location = new System.Drawing.Point(64, 249);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(114, 37);
-            this.btnEkle.TabIndex = 4;
+            this.btnEkle.TabIndex = 6;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.UseVisualStyleBackColor = true;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // btnGuncelle
             // 
-            this.btnGuncelle.Location = new System.Drawing.Point(200, 234);
+            this.btnGuncelle.Location = new System.Drawing.Point(198, 249);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(114, 37);
-            this.btnGuncelle.TabIndex = 4;
+            this.btnGuncelle.TabIndex = 7;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = true;
             this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnSil
             // 
-            this.btnSil.Location = new System.Drawing.Point(66, 292);
+            this.btnSil.Location = new System.Drawing.Point(64, 307);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(114, 37);
-            this.btnSil.TabIndex = 4;
+            this.btnSil.TabIndex = 8;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = true;
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnTemizle
             // 
-            this.btnTemizle.Location = new System.Drawing.Point(200, 292);
+            this.btnTemizle.Location = new System.Drawing.Point(198, 307);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(114, 37);
-            this.btnTemizle.TabIndex = 4;
+            this.btnTemizle.TabIndex = 9;
             this.btnTemizle.Text = "Temizle";
             this.btnTemizle.UseVisualStyleBackColor = true;
             this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
