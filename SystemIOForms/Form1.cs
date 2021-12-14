@@ -46,5 +46,17 @@ namespace SystemIOForms
         {
             dataIslemleri.PersonelKaydet("c:\\NetworkAkademi", personelListesi);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void btnSecilenKaydet_Click(object sender, EventArgs e)
+        {
+
+            Personel secilenPersonel = (Personel)lstPersonel.SelectedItem;
+            if (secilenPersonel != null)
+                dataIslemleri.PersonelKaydet("c:\\NetworkAkademi", secilenPersonel);
+        }
     }
 }

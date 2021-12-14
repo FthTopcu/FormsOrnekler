@@ -50,5 +50,21 @@ namespace SystemIOForms
                 fs.Close();
             }
         }
+        public void PersonelKaydet(string path,Personel personel)
+        {
+            DirectoryInfo ulkeBilgisi = null;
+            if(Directory.Exists(path + "\\" + personel.Ulke))
+            {
+                ulkeBilgisi = new DirectoryInfo(path + "\\" + personel.Ulke);
+            }
+            else
+            {
+                ulkeBilgisi = Directory.CreateDirectory(path + "\\" + personel.Ulke);
+            }
+            FileStream fs = File.Create(ulkeBilgisi.FullName + "\\" + personel.Isim + "." + personel.Soyisim + ".txt");
+            byte[] personelBilgi = new UTF8Encoding(true).GetBytes(personel.PersonelBilgileriniGetir());
+            fs.Write(personelBilgi, 0, personelBilgi.Length);
+            fs.Close();
+        }
     }
 }

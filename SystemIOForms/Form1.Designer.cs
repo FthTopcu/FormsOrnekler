@@ -44,6 +44,7 @@ namespace SystemIOForms
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnSecilenKaydet = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -187,17 +188,29 @@ namespace SystemIOForms
             this.label1.TabIndex = 0;
             this.label1.Text = "İsim :";
             // 
+            // btnSecilenKaydet
+            // 
+            this.btnSecilenKaydet.Location = new System.Drawing.Point(310, 259);
+            this.btnSecilenKaydet.Name = "btnSecilenKaydet";
+            this.btnSecilenKaydet.Size = new System.Drawing.Size(241, 23);
+            this.btnSecilenKaydet.TabIndex = 2;
+            this.btnSecilenKaydet.Text = "Seçilen Personel Kaydet";
+            this.btnSecilenKaydet.UseVisualStyleBackColor = true;
+            this.btnSecilenKaydet.Click += new System.EventHandler(this.btnSecilenKaydet_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 586);
+            this.Controls.Add(this.btnSecilenKaydet);
             this.Controls.Add(this.btnPersonelKaydet);
             this.Controls.Add(this.btnPersonelGetir);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -222,6 +235,7 @@ namespace SystemIOForms
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox lstPersonel;
+        private System.Windows.Forms.Button btnSecilenKaydet;
     }
 }
 
